@@ -29,3 +29,4 @@ class SerialEmulator(object):
             print('data', data)
             self.ser.write(data)
             time.sleep(1)
+
